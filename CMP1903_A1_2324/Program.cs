@@ -20,7 +20,7 @@ namespace CMP1903_A1_2324
             Testing test = new Testing();
             test.runningtest();
             Console.WriteLine("Successful Test");       // informs the user the test was completed 
-            Game game = new Game();
+           
 
            Console.ReadLine();         // this reads the code so it can run 
         }
