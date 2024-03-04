@@ -21,7 +21,7 @@ namespace CMP1903_A1_2324
 
 
         //Method
-        public int DiceRoll()          
+        public int Roll()          
         {
 
             Random r = new Random();
