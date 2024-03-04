@@ -17,7 +17,7 @@ namespace CMP1903_A1_2324
          */
 
         //Method
-        public void runningtest()       // void stops it from returning a value 
+        public void RunningTest()       // void stops it from returning a value 
         {
             Game g = new Game();                // this will allow me to use the game class and call GameRoll()
 
