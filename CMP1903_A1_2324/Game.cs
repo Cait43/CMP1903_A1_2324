@@ -25,11 +25,11 @@ namespace CMP1903_A1_2324
             Die die2 = new Die();
             Die die3 = new Die();
 
-            die1.DiceRoll();
+            die1.Roll();
             Thread.Sleep(1);            // this will add a delay of 1 milliseconds to  the dice roll and allow them to be more random 
-            die2.DiceRoll();            // this will asign a number to each of the dice 
+            die2.Roll();            // this will asign a number to each of the dice 
             Thread.Sleep(1);
-            die3.DiceRoll();
+            die3.Roll();
 
             Console.WriteLine("Rolls: ");
             Console.WriteLine(die1.Value);           // this prints the dice values 
