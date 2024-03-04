@@ -18,7 +18,7 @@ namespace CMP1903_A1_2324
           
             // testing object 
             Testing test = new Testing();
-            test.runningtest();
+            test.RunningTest();
             Console.WriteLine("Successful Test");       // informs the user the test was completed 
            
 
