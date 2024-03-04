@@ -24,12 +24,12 @@ namespace CMP1903_A1_2324
             int trial = g.GameRolls();           // this is going to check the values of the dice / total 
             Console.WriteLine("testing the game");  // this will tell the user what step they are up to 
             Die trialDie = new Die();
-            trialDie.DiceRoll();                    // his calls the function from Die class 
+            trialDie.Roll();                    // his calls the function from Die class 
             Console.WriteLine("testing the dice");
             // this will check if the dice is within the bounds needed 
 
-            Debug.Assert(trialDie.DiceRoll() > 0);
-            Debug.Assert(trialDie.DiceRoll() < 7);
+            Debug.Assert(trialDie.Roll() > 0);
+            Debug.Assert(trialDie.Roll() < 7);
 
             Debug.Assert(trial > 2 );          // this will check that the total of all the dice added is still within bounds 
             Debug.Assert(trial < 19);
