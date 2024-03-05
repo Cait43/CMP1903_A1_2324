@@ -17,7 +17,7 @@ namespace CMP1903_A1_2324
 
         //Property
 
-        public int Value = 0;
+        public int Value = 0;            // this is the value of the dice 
 
 
         //Method
