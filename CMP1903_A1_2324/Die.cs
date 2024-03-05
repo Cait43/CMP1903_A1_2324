@@ -24,8 +24,8 @@ namespace CMP1903_A1_2324
         public int Roll()          
         {
 
-            Random r = new Random();
-            Value = r.Next(1, 7);
+            Random r = new Random();        // this will generate the random number for my dice 
+            Value = r.Next(1, 7);            // this will ensure that the number is 1- 6 
             // next generates random positive numbers 
             return Value;
         }
