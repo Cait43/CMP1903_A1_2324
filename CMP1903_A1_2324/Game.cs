@@ -35,7 +35,7 @@ namespace CMP1903_A1_2324
             Console.WriteLine(die1.Value);           // this prints the dice values 
             Console.WriteLine(die2.Value);   
             Console.WriteLine(die3.Value);
-            int SumOfDice = die1.Value + die2.Value + die3.Value;        // this adds the values of the dice together to ctreate the sumOfDice
+            int sumOfDice = die1.Value + die2.Value + die3.Value;        // this adds the values of the dice together to ctreate the sumOfDice
             Console.WriteLine("Sum Total off Rolls: ");            // this will print the sum total of the dice 
             Console.WriteLine(sumOfDice);
             return sumOfDice;
