@@ -19,7 +19,7 @@ namespace CMP1903_A1_2324
 
         //Methods
 
-        public int  GameRolls()
+        public int  GameRolls()            // this is goignt o roll the 3 dice then show the results, its also responsible for the sum of dice this will be called later 
         {
             Die die1 = new Die();       // this creates 3 dice 
             Die die2 = new Die();
@@ -31,14 +31,14 @@ namespace CMP1903_A1_2324
             Thread.Sleep(1);
             die3.Roll();
 
-            Console.WriteLine("Rolls: ");
+            Console.WriteLine("Rolls: ");            // this is text that will be shown to help users know what the numbers are 
             Console.WriteLine(die1.Value);           // this prints the dice values 
             Console.WriteLine(die2.Value);   
             Console.WriteLine(die3.Value);
-            int SumOfDice = die1.Value + die2.Value + die3.Value;
+            int SumOfDice = die1.Value + die2.Value + die3.Value;        // this adds the values of the dice together to ctreate the sumOfDice
             Console.WriteLine("Sum Total off Rolls: ");            // this will print the sum total of the dice 
-            Console.WriteLine(SumOfDice);
-            return SumOfDice;
+            Console.WriteLine(sumOfDice);
+            return sumOfDice;
         }
 
 
