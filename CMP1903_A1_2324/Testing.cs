@@ -16,6 +16,10 @@ namespace CMP1903_A1_2324
          * Use debug.assert() to make the comparisons and tests.
          */
 
+        ///<summary>
+        /// This runs the game and checks the value of the dice and sum of dice to make sure there in bounds 
+        ///</summary>
+        
         //Method
         public void RunningTest()       // void stops it from returning a value 
         {
