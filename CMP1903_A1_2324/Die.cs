@@ -19,7 +19,9 @@ namespace CMP1903_A1_2324
 
         public int Value = 0;
 
-
+        ///<summary>
+        /// This generates the random number for my dice between 1 and 6 
+        ///</summary>
         //Method
         public int Roll()          
         {
