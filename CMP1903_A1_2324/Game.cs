@@ -17,9 +17,13 @@ namespace CMP1903_A1_2324
          * rolls could be continous, and the totals and other statistics could be summarised for example.
          */
 
+        ///<summary>
+        /// This will roll my 3 dice, then display the rolls and the sum of the rolls 
+        ///</summary>
+        
         //Methods
 
-        public int  GameRolls()            // this is goignt o roll the 3 dice then show the results, its also responsible for the sum of dice this will be called later 
+        public int  GameRolls()            // this is going to roll the 3 dice then show the results, its also responsible for the sum of dice this will be called later 
         {
             Die die1 = new Die();       // this creates 3 dice 
             Die die2 = new Die();
